@@ -1,17 +1,14 @@
 body {
     margin: 0px;
+    background-color: #cfe0e8;
 }
 h1 {
     font-size: 20px;
+    color: #b7d7e8;
 }
 p {
     font-size: 10px;
-}
-meta {
-
-}
-link {
-
+    color: #87bdd8;
 }
 #H1 {
 
