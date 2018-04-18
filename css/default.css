@@ -3,16 +3,20 @@ body {
     background-color: #cfe0e8;
 }
 h1 {
-    font-size: 20px;
-    color: #b7d7e8;
+    color: #001d2d;
 }
 p {
-    font-size: 10px;
-    color: #87bdd8;
+    color: #00517a;
 }
 #H1 {
-
+    margin: 10;
 }
 #P {
 
+}
+.dark-sky {
+    color: #001d2d;
+}
+.darkish-sky {
+    color: #00517a;
 }
