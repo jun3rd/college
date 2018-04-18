@@ -13,7 +13,7 @@ function loadJSON(callback) {
 }
 function init() {
   loadJSON(function(response) {
-    let answer = null
+    let answer = ""
     let actualJSON = JSON.parse(response)
     let dataShown = document.getElementById('UL')
     for( let x=0; x<actualJSON.colleges.length; x++) {
