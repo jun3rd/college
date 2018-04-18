@@ -17,7 +17,8 @@ function init() {
     let actualJSON = JSON.parse(response)
     let dataShown = document.getElementById('UL')
     for( let x=0; x<actualJSON.colleges.length; x++) {
-      answer += '<li id="">' + actualJSON.colleges[x].name + '</li>'
+      answer += '<li id="" class="dark-sky">' + actualJSON.colleges[x].name + '</li>'
+      answer += '<li id="" class="med-sky">' + actualJSON.colleges[x].name + '</li>'
     }
     dataShown.innerHTML = answer
   })
