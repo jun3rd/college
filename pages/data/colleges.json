@@ -1,466 +1,3701 @@
-{ "colleges": [
-    { "name": "Adelphi University" },
-    { "name": "Agnes Scott College" },
-    { "name": "University of Alabama" },
-    { "name": "University of Alabama Birmingham" },
-    { "name": "University of Alabama Huntsville" },
-    { "name": "Albion College" },
-    { "name": "Albright College" },
-    { "name": "Alfred University" },
-    { "name": "Allegheny College" },
-    { "name": "Amherst College" },
-    { "name": "American International College" },
-    { "name": "American University" },
-    { "name": "Antioch College" },
-    { "name": "University of Arizona" },
-    { "name": "Arizona State University" },
-    { "name": "University of Arkansas" },
-    { "name": "Assumption College" },
-    { "name": "College of the Atlantic" },
-    { "name": "Auburn University" },
-    { "name": "Austin College" },
-    { "name": "Ball State University" },
-    { "name": "Babson College" },
-    { "name": "Bard College" },
-    { "name": "Barnard College" },
-    { "name": "Baruch College" },
-    { "name": "City University of New York" },
-    { "name": "Bates College" },
-    { "name": "Baylor University" },
-    { "name": "Belmont University" },
-    { "name": "Beloit College" },
-    { "name": "Bennington College" },
-    { "name": "Bentley University" },
-    { "name": "Berea College" },
-    { "name": "Birmingham Southern College" },
-    { "name": "Boston College" },
-    { "name": "Boston University" },
-    { "name": "Bowdoin College" },
-    { "name": "Bowling Green State University" },
-    { "name": "Bradley University" },
-    { "name": "Brandeis University" },
-    { "name": "Brigham Young University" },
-    { "name": "University of British Columbia" },
-    { "name": "Brooklyn College" },
-    { "name": "Brown University" },
-    { "name": "Bryant University" },
-    { "name": "Bryn Mawr College" },
-    { "name": "Bucknell University" },
-    { "name": "Butler University" },
-    { "name": "Cal Poly Pomona" },
-    { "name": "Cal Poly San Luis Obispo" },
-    { "name": "University of California - GENERAL" },
-    { "name": "University of California - Berkeley" },
-    { "name": "University of California - Davis" },
-    { "name": "University of California - Irvine" },
-    { "name": "University of California - Los Angeles" },
-    { "name": "University of California - Merced" },
-    { "name": "University of California - Riverside" },
-    { "name": "University of California - San Diego" },
-    { "name": "University of California - Santa Barbara" },
-    { "name": "University of California - Santa Cruz" },
-    { "name": "California Institute of Technology" },
-    { "name": "California Lutheran University" },
-    { "name": "California State University - GENERAL" },
-    { "name": "California State University - Fresno" },
-    { "name": "California State University - Fullerton" },
-    { "name": "California State University - Long Beach" },
-    { "name": "California State University - Los Angeles" },
-    { "name": "California State University - Monterey Bay" },
-    { "name": "California State University - Northridge" },
-    { "name": "Carleton College" },
-    { "name": "Carnegie Mellon University" },
-    { "name": "Carroll College" },
-    { "name": "Case Western Reserve University" },
-    { "name": "Catholic University of America" },
-    { "name": "Central Connecticut State University" },
-    { "name": "University of Central Florida" },
-    { "name": "Centre College" },
-    { "name": "Champlain College" },
-    { "name": "Chapman University" },
-    { "name": "University of Chicago" },
-    { "name": "Christopher Newport University" },
-    { "name": "University of Cincinnati" },
-    { "name": "City College of New York" },
-    { "name": "Claremont McKenna College" },
-    { "name": "Clark University" },
-    { "name": "Clarkson University" },
-    { "name": "Clemson University" },
-    { "name": "Coe College" },
-    { "name": "Colby College" },
-    { "name": "Colgate University" },
-    { "name": "College of Charleston" },
-    { "name": "University of Colorado" },
-    { "name": "Colorado College" },
-    { "name": "Colorado School of Mines" },
-    { "name": "Colorado State University" },
-    { "name": "Columbia College Chicago" },
-    { "name": "Columbia University" },
-    { "name": "University of Connecticut" },
-    { "name": "Connecticut College" },
-    { "name": "Cooper Union" },
-    { "name": "Cornell College" },
-    { "name": "Cornell University" },
-    { "name": "Creighton University" },
-    { "name": "CUNY System" },
-    { "name": "Dartmouth College" },
-    { "name": "Davidson College" },
-    { "name": "University of Dayton" },
-    { "name": "Deep Springs College" },
-    { "name": "University of Delaware" },
-    { "name": "Denison University" },
-    { "name": "University of Denver" },
-    { "name": "DePaul University" },
-    { "name": "DePauw University" },
-    { "name": "Dickinson College" },
-    { "name": "Dominican University of California" },
-    { "name": "Drew University" },
-    { "name": "Drexel University" },
-    { "name": "Duke University" },
-    { "name": "Duquesne University" },
-    { "name": "East Carolina University" },
-    { "name": "Earlham College" },
-    { "name": "Eckerd College" },
-    { "name": "Elon University" },
-    { "name": "Elizabethtown College" },
-    { "name": "Embry-Riddle" },
-    { "name": "Emerson College" },
-    { "name": "Emory University" },
-    { "name": "Fairfield University" },
-    { "name": "Fairleigh Dickinson University" },
-    { "name": "Fashion Institute of Technology" },
-    { "name": "Fisk University" },
-    { "name": "Flagler College" },
-    { "name": "University of Florida" },
-    { "name": "Florida A&M University" },
-    { "name": "Florida Atlantic University" },
-    { "name": "Florida Institute of Technology" },
-    { "name": "Florida International University" },
-    { "name": "Florida State University" },
-    { "name": "Fordham University" },
-    { "name": "Franklin & Marshall College" },
-    { "name": "Furman University" },
-    { "name": "George Mason University" },
-    { "name": "George Washington University" },
-    { "name": "Georgetown University" },
-    { "name": "University of Georgia" },
-    { "name": "Georgia Institute of Technology" },
-    { "name": "Georgia State University" },
-    { "name": "Gettysburg College" },
-    { "name": "Goddard College" },
-    { "name": "Golden Gate University" },
-    { "name": "Gonzaga University" },
-    { "name": "Goucher College" },
-    { "name": "Grinnell College" },
-    { "name": "Grove City College" },
-    { "name": "Gustavus Adolphus College" },
-    { "name": "Hanover College" },
-    { "name": "Hamilton College" },
-    { "name": "Hampden-Sydney College" },
-    { "name": "Hampshire College" },
-    { "name": "Hampton University" },
-    { "name": "University of Hartford" },
-    { "name": "Hartwick College" },
-    { "name": "Harvard University" },
-    { "name": "Harvey Mudd College" },
-    { "name": "Haverford College" },
-    { "name": "Hendrix College" },
-    { "name": "High Point University" },
-    { "name": "Hillsdale College" },
-    { "name": "Hiram College" },
-    { "name": "Hobart and William Smith Colleges" },
-    { "name": "Hofstra University" },
-    { "name": "Hollins University" },
-    { "name": "College of the Holy Cross" },
-    { "name": "Hope College" },
-    { "name": "University of Houston" },
-    { "name": "Howard University" },
-    { "name": "Humboldt State University" },
-    { "name": "University of Illinois - Chicago" },
-    { "name": "University of Illinois - Urbana-Champaign" },
-    { "name": "Indiana University - Bloomington" },
-    { "name": "Indiana University of Pennsylvania" },
-    { "name": "Indiana University-Purdue University Indianapolis" },
-    { "name": "Indiana University - South Bend" },
-    { "name": "University of Iowa" },
-    { "name": "Iowa State University" },
-    { "name": "Illinois Wesleyan University" },
-    { "name": "Illinois Institute of Technology" },
-    { "name": "Ithaca College" },
-    { "name": "James Madison University" },
-    { "name": "Johns Hopkins University" },
-    { "name": "The Juilliard School" },
-    { "name": "Juniata College" },
-    { "name": "Kalamazoo College" },
-    { "name": "University of Kansas" },
-    { "name": "Kansas State University" },
-    { "name": "Kent State University" },
-    { "name": "University of Kentucky" },
-    { "name": "Kenyon College" },
-    { "name": "Knox College" },
-    { "name": "Lafayette College" },
-    { "name": "Lake Forest College" },
-    { "name": "LaSalle University" },
-    { "name": "Lawrence University" },
-    { "name": "Lehigh University" },
-    { "name": "Lewis & Clark College" },
-    { "name": "Linfield College" },
-    { "name": "Louisiana State University" },
-    { "name": "University of Louisville" },
-    { "name": "Loyola University of Chicago" },
-    { "name": "Loyola University - Maryland" },
-    { "name": "Loyola University - New Orleans" },
-    { "name": "Loyola Marymount University" },
-    { "name": "Lynchburg College" },
-    { "name": "Macalester College" },
-    { "name": "University of Maine" },
-    { "name": "Manhattan College" },
-    { "name": "Manhattanville College" },
-    { "name": "Marietta College" },
-    { "name": "Marist College" },
-    { "name": "Marlboro College" },
-    { "name": "Marquette University" },
-    { "name": "University of Mary Washington" },
-    { "name": "University of Maryland - Baltimore County" },
-    { "name": "University of Maryland - College Park" },
-    { "name": "Marymount Manhattan College" },
-    { "name": "University of Massachusetts - Amherst" },
-    { "name": "University of Massachusetts - Boston" },
-    { "name": "Massachusetts Institute of Technology" },
-    { "name": "McGill University" },
-    { "name": "Mercer University" },
-    { "name": "Merrimack College" },
-    { "name": "University of Miami - Florida" },
-    { "name": "Miami University - Ohio" },
-    { "name": "University of Michigan" },
-    { "name": "Michigan State University" },
-    { "name": "Michigan Technological University" },
-    { "name": "Middlebury College" },
-    { "name": "Mills College" },
-    { "name": "Millsaps College" },
-    { "name": "University of Minnesota" },
-    { "name": "University of Mississippi" },
-    { "name": "Mississippi State University" },
-    { "name": "University of Missouri - Columbia" },
-    { "name": "University of Missouri - Kansas City" },
-    { "name": "Missouri University of Science and Technology" },
-    { "name": "Monmouth University" },
-    { "name": "University of Montana" },
-    { "name": "Montclair State University" },
-    { "name": "Moravian College" },
-    { "name": "Morehouse College" },
-    { "name": "Mount Holyoke College" },
-    { "name": "Muhlenberg College" },
-    { "name": "University of Nebraska" },
-    { "name": "University of Nevada" },
-    { "name": "New College of Florida" },
-    { "name": "New England College" },
-    { "name": "University of New Hampshire" },
-    { "name": "University of New Haven" },
-    { "name": "The College of New Jersey" },
-    { "name": "New Jersey Institute of Technology" },
-    { "name": "New Mexico Institute of Mining & Technology" },
-    { "name": "University of New Mexico" },
-    { "name": "University of New Orleans" },
-    { "name": "New York University" },
-    { "name": "University of North Carolina - Asheville" },
-    { "name": "University of North Carolina - Chapel Hill" },
-    { "name": "University of North Carolina - Charlotte" },
-    { "name": "University of North Carolina - Greensboro" },
-    { "name": "University of North Carolina - Wilmington" },
-    { "name": "North Carolina School of the Arts" },
-    { "name": "North Carolina State University" },
-    { "name": "University of North Dakota" },
-    { "name": "University of North Florida" },
-    { "name": "Northeastern University" },
-    { "name": "Northern Arizona University" },
-    { "name": "Northwestern University" },
-    { "name": "University of Notre Dame" },
-    { "name": "Oberlin College" },
-    { "name": "Occidental College" },
-    { "name": "Oglethorpe University" },
-    { "name": "Ohio University" },
-    { "name": "Ohio Northern University" },
-    { "name": "Ohio State University" },
-    { "name": "Ohio Wesleyan University" },
-    { "name": "University of Oklahoma" },
-    { "name": "Oklahoma State University" },
-    { "name": "Old Dominion University" },
-    { "name": "Olin College" },
-    { "name": "University of Oregon" },
-    { "name": "Oregon State University" },
-    { "name": "Pace University" },
-    { "name": "University of the Pacific" },
-    { "name": "Parsons School of Design" },
-    { "name": "Penn State" },
-    { "name": "University of Pennsylvania" },
-    { "name": "Pepperdine University" },
-    { "name": "Philadelphia University" },
-    { "name": "University of Pittsburgh" },
-    { "name": "Pitzer College" },
-    { "name": "Pomona College" },
-    { "name": "Pratt Institute" },
-    { "name": "Princeton University" },
-    { "name": "Providence College" },
-    { "name": "University of Puget Sound" },
-    { "name": "Purdue University" },
-    { "name": "Queens University - Kingston" },
-    { "name": "Ontario Quinnipiac University" },
-    { "name": "Randolph College" },
-    { "name": "Randolph-Macon College" },
-    { "name": "University of Redlands" },
-    { "name": "Reed College" },
-    { "name": "Regis University" },
-    { "name": "Rensselaer Polytechnic Institute" },
-    { "name": "University of Rhode Island" },
-    { "name": "Rhode Island School of Design" },
-    { "name": "Rhodes College" },
-    { "name": "Rice University" },
-    { "name": "University of Richmond" },
-    { "name": "Rider University" },
-    { "name": "Ripon College" },
-    { "name": "University of Rochester" },
-    { "name": "Rochester Institute of Technology" },
-    { "name": "Rollins College" },
-    { "name": "Rose-Hulman Institute of Technology" },
-    { "name": "Rowan University" },
-    { "name": "Rutgers University" },
-    { "name": "Sacred Heart University" },
-    { "name": "College of Saint Benedict and Saint John's University" },
-    { "name": "St. Bonaventure University" },
-    { "name": "St. John's College - Maryland" },
-    { "name": "St. John's College - New Mexico" },
-    { "name": "St. John's University (New York)" },
-    { "name": "Saint Joseph's University" },
-    { "name": "St. Lawrence University" },
-    { "name": "Saint Louis University" },
-    { "name": "Saint Mary's College of California" },
-    { "name": "St. Mary's College of Maryland" },
-    { "name": "Saint Mary's College - Notre Dame" },
-    { "name": "Saint Michael's College" },
-    { "name": "Saint Olaf College" },
-    { "name": "Salisbury University" },
-    { "name": "Salve Regina University" },
-    { "name": "Samford University" },
-    { "name": "University of San Diego" },
-    { "name": "San Diego State University" },
-    { "name": "San Francisco State University" },
-    { "name": "University of San Francisco" },
-    { "name": "San Jose State University" },
-    { "name": "Santa Clara University" },
-    { "name": "Sarah Lawrence College" },
-    { "name": "Savannah College of Art and Design" },
-    { "name": "School of Visual Arts" },
-    { "name": "University of Scranton" },
-    { "name": "Saint Anselm College" },
-    { "name": "Scripps College" },
-    { "name": "Seattle University" },
-    { "name": "Seton Hall University" },
-    { "name": "Sewanee: The University of the South" },
-    { "name": "Shimer College" },
-    { "name": "Siena College" },
-    { "name": "Simmons College" },
-    { "name": "Simon's Rock College of Bard" },
-    { "name": "Skidmore College" },
-    { "name": "Smith College" },
-    { "name": "Soka University of America" },
-    { "name": "Sonoma State University" },
-    { "name": "University of South Carolina" },
-    { "name": "University of South Florida" },
-    { "name": "University of Southern California" },
-    { "name": "Southern Methodist University" },
-    { "name": "Southwestern University" },
-    { "name": "Spelman College" },
-    { "name": "Stanford University" },
-    { "name": "Stephens College" },
-    { "name": "Stetson University" },
-    { "name": "Stevens Institute of Technology" },
-    { "name": "Stevenson University" },
-    { "name": "Stonehill College" },
-    { "name": "SUNY - General" },
-    { "name": "SUNY at Albany" },
-    { "name": "SUNY at Binghamton" },
-    { "name": "SUNY at Buffalo" },
-    { "name": "SUNY at Geneseo" },
-    { "name": "SUNY at Purchase" },
-    { "name": "SUNY at Stony Brook" },
-    { "name": "Susquehanna University" },
-    { "name": "Swarthmore College" },
-    { "name": "Sweet Briar College" },
-    { "name": "Syracuse University" },
-    { "name": "University of Tampa" },
-    { "name": "Temple University" },
-    { "name": "University of Tennessee" },
-    { "name": "The University of Texas Schools (Other Than Austin)" },
-    { "name": "The University of Texas at Austin" },
-    { "name": "Texas A&M University" },
-    { "name": "Texas Christian University" },
-    { "name": "Texas Tech University" },
-    { "name": "Thomas Aquinas College - California" },
-    { "name": "University of Toronto" },
-    { "name": "Towson University" },
-    { "name": "Trinity College (Connecticut)" },
-    { "name": "Trinity University (Texas)" },
-    { "name": "Truman State University" },
-    { "name": "Tufts University" },
-    { "name": "Tulane University" },
-    { "name": "University of Tulsa" },
-    { "name": "Tuskegee University" },
-    { "name": "Union College - New York" },
-    { "name": "United States Air Force Academy" },
-    { "name": "United States Coast Guard Academy" },
-    { "name": "United States Merchant Marine Academy" },
-    { "name": "United States Military Academy" },
-    { "name": "United States Naval Academy" },
-    { "name": "University of the Sciences in Philadelphia" },
-    { "name": "Ursinus College" },
-    { "name": "Ursuline College" },
-    { "name": "Valparaiso University" },
-    { "name": "Vanderbilt University" },
-    { "name": "Vassar College" },
-    { "name": "University of Vermont" },
-    { "name": "Villanova University" },
-    { "name": "University of Virginia" },
-    { "name": "Virginia Commonwealth University" },
-    { "name": "Virginia Tech" },
-    { "name": "Virginia Wesleyan College" },
-    { "name": "Wabash College" },
-    { "name": "Wagner College" },
-    { "name": "Wake Forest University" },
-    { "name": "Warren Wilson College" },
-    { "name": "University of Washington" },
-    { "name": "Washington and Lee University" },
-    { "name": "Washington College" },
-    { "name": "Washington State University" },
-    { "name": "Washington University in St. Louis" },
-    { "name": "University of Waterloo" },
-    { "name": "Webb Institute" },
-    { "name": "Wellesley College" },
-    { "name": "Wells College" },
-    { "name": "Wesleyan College" },
-    { "name": "Wesleyan University" },
-    { "name": "West Virginia University" },
-    { "name": "Western Michigan University" },
-    { "name": "Western Washington University" },
-    { "name": "Westminster College - Pennsylvania" },
-    { "name": "Wheaton College - Illinois" },
-    { "name": "Wheaton College - Massachusetts" },
-    { "name": "Whitman College" },
-    { "name": "Whittier College" },
-    { "name": "College of William and Mary" },
-    { "name": "Willamette University" },
-    { "name": "William Jewell College" },
-    { "name": "Williams College" },
-    { "name": "University of Wisconsin" },
-    { "name": "Wittenberg University" },
-    { "name": "Wofford College" },
-    { "name": "College of Wooster" },
-    { "name": "Worcester Polytechnic Institute" },
-    { "name": "Wright State University" },
-    { "name": "University of Wyoming" },
-    { "name": "Yale University" },
-    { "name": "Yeshiva University" },
-    { "name": "Xavier University" }
+{
+  "colleges": [
+    {
+      "name": "Adelphi University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Agnes Scott College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Alabama",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Alabama Birmingham",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Alabama Huntsville",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Albion College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Albright College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Alfred University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Allegheny College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Amherst College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "American International College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "American University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Antioch College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Arizona",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Arizona State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Arkansas",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Assumption College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "College of the Atlantic",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Auburn University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Austin College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Ball State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Babson College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bard College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Barnard College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Baruch College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "City University of New York",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bates College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Baylor University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Belmont University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Beloit College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bennington College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bentley University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Berea College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Birmingham Southern College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Boston College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Boston University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bowdoin College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bowling Green State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bradley University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Brandeis University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Brigham Young University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of British Columbia",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Brooklyn College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Brown University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bryant University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bryn Mawr College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Bucknell University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Butler University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Cal Poly Pomona",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Cal Poly San Luis Obispo",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - GENERAL",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Berkeley",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Davis",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Irvine",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Los Angeles",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Merced",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Riverside",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - San Diego",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Santa Barbara",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of California - Santa Cruz",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California Lutheran University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - GENERAL",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Fresno",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Fullerton",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Long Beach",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Los Angeles",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Monterey Bay",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "California State University - Northridge",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Carleton College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Carnegie Mellon University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Carroll College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Case Western Reserve University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Catholic University of America",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Central Connecticut State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Central Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Centre College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Champlain College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Chapman University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Chicago",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Christopher Newport University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Cincinnati",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "City College of New York",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Claremont McKenna College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Clark University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Clarkson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Clemson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Coe College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Colby College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Colgate University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "College of Charleston",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Colorado",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Colorado College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Colorado School of Mines",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Colorado State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Columbia College Chicago",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Columbia University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Connecticut",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Connecticut College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Cooper Union",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Cornell College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Cornell University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Creighton University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "CUNY System",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Dartmouth College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Davidson College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Dayton",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Deep Springs College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Delaware",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Denison University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Denver",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "DePaul University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "DePauw University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Dickinson College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Dominican University of California",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Drew University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Drexel University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Duke University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Duquesne University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "East Carolina University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Earlham College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Eckerd College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Elon University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Elizabethtown College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Embry-Riddle",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Emerson College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Emory University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Fairfield University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Fairleigh Dickinson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Fashion Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Fisk University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Flagler College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Florida A&M University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Florida Atlantic University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Florida Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Florida International University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Florida State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Fordham University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Franklin & Marshall College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Furman University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "George Mason University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "George Washington University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Georgetown University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Georgia",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Georgia Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Georgia State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Gettysburg College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Goddard College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Golden Gate University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Gonzaga University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Goucher College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Grinnell College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Grove City College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Gustavus Adolphus College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hanover College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hamilton College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hampden-Sydney College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hampshire College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hampton University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Hartford",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hartwick College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Harvard University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Harvey Mudd College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Haverford College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hendrix College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "High Point University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hillsdale College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hiram College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hobart and William Smith Colleges",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hofstra University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hollins University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "College of the Holy Cross",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Hope College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Houston",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Howard University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Humboldt State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Illinois - Chicago",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Illinois - Urbana-Champaign",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Indiana University - Bloomington",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Indiana University of Pennsylvania",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Indiana University-Purdue University Indianapolis",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Indiana University - South Bend",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "University of Iowa",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Iowa State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+      "name": "Illinois Wesleyan University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Illinois Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ithaca College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "James Madison University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Johns Hopkins University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "The Juilliard School",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Juniata College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Kalamazoo College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Kansas",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Kansas State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Kent State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Kentucky",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Kenyon College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Knox College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lafayette College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lake Forest College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "LaSalle University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lawrence University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lehigh University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lewis & Clark College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Linfield College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Louisiana State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Louisville",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Loyola University of Chicago",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Loyola University - Maryland",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Loyola University - New Orleans",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Loyola Marymount University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Lynchburg College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Macalester College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Maine",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Manhattan College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Manhattanville College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Marietta College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Marist College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Marlboro College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Marquette University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Mary Washington",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Maryland - Baltimore County",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Maryland - College Park",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Marymount Manhattan College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Massachusetts - Amherst",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Massachusetts - Boston",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Massachusetts Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "McGill University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Mercer University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Merrimack College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Miami - Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Miami University - Ohio",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Michigan",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Michigan State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Michigan Technological University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Middlebury College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Mills College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Millsaps College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Minnesota",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Mississippi",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Mississippi State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Missouri - Columbia",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Missouri - Kansas City",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Missouri University of Science and Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Monmouth University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Montana",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Montclair State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Moravian College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Morehouse College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Mount Holyoke College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Muhlenberg College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Nebraska",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Nevada",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "New College of Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "New England College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of New Hampshire",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of New Haven",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "The College of New Jersey",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "New Jersey Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "New Mexico Institute of Mining & Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of New Mexico",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of New Orleans",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "New York University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Carolina - Asheville",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Carolina - Chapel Hill",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Carolina - Charlotte",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Carolina - Greensboro",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Carolina - Wilmington",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "North Carolina School of the Arts",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "North Carolina State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Dakota",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of North Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Northeastern University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Northern Arizona University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Northwestern University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Notre Dame",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Oberlin College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Occidental College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Oglethorpe University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ohio University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ohio Northern University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ohio State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ohio Wesleyan University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Oklahoma",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Oklahoma State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Old Dominion University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Olin College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Oregon",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Oregon State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Pace University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of the Pacific",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Parsons School of Design",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Penn State",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Pennsylvania",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Pepperdine University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Philadelphia University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Pittsburgh",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Pitzer College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Pomona College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Pratt Institute",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Princeton University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Providence College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Puget Sound",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Purdue University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Queens University - Kingston",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ontario Quinnipiac University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Randolph College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Randolph-Macon College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Redlands",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Reed College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Regis University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rensselaer Polytechnic Institute",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Rhode Island",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rhode Island School of Design",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rhodes College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rice University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Richmond",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rider University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ripon College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Rochester",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rochester Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rollins College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rose-Hulman Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rowan University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Rutgers University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Sacred Heart University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "College of Saint Benedict and Saint John's University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. Bonaventure University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. John's College - Maryland",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. John's College - New Mexico",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. John's University (New York)",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Joseph's University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. Lawrence University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Louis University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Mary's College of California",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "St. Mary's College of Maryland",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Mary's College - Notre Dame",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Michael's College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Olaf College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Salisbury University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Salve Regina University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Samford University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of San Diego",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "San Diego State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "San Francisco State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of San Francisco",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "San Jose State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Santa Clara University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Sarah Lawrence College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Savannah College of Art and Design",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "School of Visual Arts",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Scranton",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Saint Anselm College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Scripps College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Seattle University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Seton Hall University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Sewanee: The University of the South",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Shimer College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Siena College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Simmons College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Simon's Rock College of Bard",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Skidmore College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Smith College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Soka University of America",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Sonoma State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of South Carolina",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of South Florida",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Southern California",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Southern Methodist University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Southwestern University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Spelman College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stanford University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stephens College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stetson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stevens Institute of Technology",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stevenson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Stonehill College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY - General",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Albany",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Binghamton",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Buffalo",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Geneseo",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Purchase",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "SUNY at Stony Brook",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Susquehanna University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Swarthmore College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Sweet Briar College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Syracuse University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Tampa",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Temple University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Tennessee",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "The University of Texas Schools (Other Than Austin)",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "The University of Texas at Austin",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Texas A&M University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Texas Christian University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Texas Tech University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Thomas Aquinas College - California",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Toronto",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Towson University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Trinity College (Connecticut)",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Trinity University (Texas)",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Truman State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Tufts University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Tulane University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Tulsa",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Tuskegee University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Union College - New York",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "United States Air Force Academy",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "United States Coast Guard Academy",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "United States Merchant Marine Academy",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "United States Military Academy",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "United States Naval Academy",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of the Sciences in Philadelphia",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ursinus College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Ursuline College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Valparaiso University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Vanderbilt University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Vassar College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Vermont",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Villanova University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Virginia",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Virginia Commonwealth University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Virginia Tech",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Virginia Wesleyan College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wabash College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wagner College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wake Forest University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Warren Wilson College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Washington",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Washington and Lee University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Washington College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Washington State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Washington University in St. Louis",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Waterloo",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Webb Institute",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wellesley College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wells College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wesleyan College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wesleyan University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "West Virginia University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Western Michigan University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Western Washington University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Westminster College - Pennsylvania",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wheaton College - Illinois",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wheaton College - Massachusetts",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Whitman College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Whittier College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "College of William and Mary",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Willamette University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "William Jewell College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Williams College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Wisconsin",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wittenberg University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wofford College",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "College of Wooster",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Worcester Polytechnic Institute",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Wright State University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "University of Wyoming",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Yale University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Yeshiva University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+		},
+    {
+			"name": "Xavier University",
+			"state": "",
+			"DEALmajors": [
+				"",
+				""
+			]
+    }
   ]
 }
 
