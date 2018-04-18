@@ -14,12 +14,21 @@ p {
 #P {
 
 }
+/* colors 
+ The following 2 colors should be used as text */
 .dark-sky {
     color: #001d2d;
 }
 .darkish-sky {
     color: #00517a;
 }
+/* The following 3 colors should be used as backgrounds */
 .light-sky {
-    color: ;
+    color: #cfe0e8;
+}
+.sky {
+    color: #b7d7e8;
+}
+.med-sky {
+    color: #87bdd8;
 }
