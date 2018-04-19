@@ -15,7 +15,7 @@ function init() {
   loadJSON(function(response) {
     let answer = ""
     let actualJSON = JSON.parse(response)
-    let dataShown = document.getElementById('College-Stats')
+    let dataShown = document.getElementById('college-stats')
     for( let x=0; x<actualJSON.colleges.length; x++) {
       answer += '<li id="" class="dark-sky">' + actualJSON.colleges[x].name + '</li>'
       answer += '<li id="" class="med-sky">' + actualJSON.colleges[x].name + '</li>'
