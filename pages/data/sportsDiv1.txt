@@ -1,0 +1,395 @@
+Alabama	University of Alabama
+Alabama Agricultural and Mechanical University
+University of Alabama at Birmingham
+Alabama State University
+Auburn University
+Jacksonville State University
+Samford University
+University of South Alabama
+Troy University
+
+Alaska	None
+
+Arizona	University of Arizona
+Arizona State University
+Northern Arizona University
+
+Arkansas	University of Arkansas
+University of Arkansas at Little Rock
+University of Arkansas at Pine Bluff
+Arkansas State University
+University of Central Arkansas
+
+California	University of California
+UC Davis
+UC Irvine
+UCLA
+California Polytechnic State University
+UC Riverside
+UC Santa Barbara
+Cal State Bakersfield
+Cal State Fresno
+Cal State Fullerton
+Cal State Long Beach
+Cal State Northridge
+Cal State Sacramento
+Loyola Marymount University
+University of the Pacific
+Pepperdine University
+Saint Mary's College of California
+University of San Diego
+San Diego State University
+University of San Francisco
+San Jose State University
+Santa Clara University
+University of Southern California
+Stanford University
+
+Colorado	University of Colorado
+Colorado State University
+University of Denver
+University of Northern Colorado
+Air Force
+
+Connecticut	Central Connecticut State University
+University of Connecticut
+Fairfield University
+University of Hartford
+Quinnipiac University
+Sacred Heart University
+Yale University
+
+Delaware	University of Delaware
+Delaware State University
+
+Florida	Bethune-Cookman University
+University of Central Florida
+University of Florida
+Florida A&M University
+Florida Atlantic University
+Florida Gulf Coast University
+Florida International University
+Florida State University
+Jacksonville University
+University of Miami
+University of North Florida
+University of South Florida
+Stetson University
+
+Georgia	University of Georgia
+Georgia Institute of Technology
+Georgia Southern University
+Georgia State University
+Kennesaw State University
+Mercer University
+Savannah State University
+
+Hawaii	University of Hawaii at Manoa
+
+Idaho	Boise State University
+University of Idaho
+Idaho State University
+
+Illinois	Bradley University
+Chicago State University
+DePaul University
+Eastern Illinois University
+University of Illinois at Chicago
+Illinois State University
+University of Illinois at Urbana–Champaign
+Loyola University Chicago
+Northern Illinois University
+Northwestern University
+Southern Illinois University Carbondale
+Southern Illinois University Edwardsville
+Western Illinois University
+
+Indiana	Ball State University
+Butler University
+University of Evansville
+Indiana University
+Indiana State University
+Indiana University – Purdue University Fort Wayne
+Indiana University – Purdue University Indianapolis
+University of Notre Dame
+Purdue University
+Valparaiso University
+
+Iowa	Drake University
+University of Iowa
+Iowa State University
+University of Northern Iowa
+
+Kansas	University of Kansas
+Kansas State University
+Wichita State University
+
+Kentucky	Eastern Kentucky University
+University of Kentucky
+University of Louisville
+Morehead State University
+Murray State University
+Northern Kentucky University
+Western Kentucky University
+
+Louisiana	Grambling State University
+University of Louisiana at Lafayette
+University of Louisiana at Monroe
+Louisiana State University
+Louisiana Tech University
+McNeese State University
+University of New Orleans
+Nicholls State University
+Northwestern State University
+Southeastern Louisiana University
+Southern University
+Tulane University
+
+Maine	University of Maine
+
+Maryland	Coppin State University
+Loyola University Maryland
+University of Maryland, Baltimore County
+University of Maryland, College Park
+University of Maryland Eastern Shore
+Morgan State University
+Mount St. Mary's University
+Towson University
+United States Naval Academy (Navy)
+
+Massachusetts	Boston College
+Boston University
+Harvard University
+College of the Holy Cross
+University of Massachusetts Amherst
+Northeastern University
+
+Michigan	Central Michigan University
+University of Detroit Mercy
+Eastern Michigan University
+University of Michigan
+Michigan State University
+Oakland University
+Western Michigan University
+
+Minnesota	University of Minnesota
+
+Mississippi	Alcorn State University
+Jackson State University
+University of Mississippi
+Mississippi State University
+Mississippi Valley State University
+University of Southern Mississippi
+
+Missouri	University of Missouri
+University of Missouri–Kansas City
+Missouri State University
+Saint Louis University
+Southeast Missouri State University
+
+Montana	University of Montana
+Montana State University
+
+Nebraska	Creighton University
+University of Nebraska Lincoln
+University of Nebraska Omaha
+
+Nevada	UNLV
+University of Nevada Reno
+
+New Hampshire	Dartmouth College
+University of New Hampshire
+
+New Jersey	Fairleigh Dickinson University
+Monmouth University
+New Jersey Institute of Technology
+Princeton University
+Rider University
+Rutgers University
+Saint Peter's University
+Seton Hall University
+
+New Mexico	University of New Mexico
+New Mexico State University
+
+New York	University at Albany, SUNY
+Binghamton University
+University at Buffalo
+Canisius College
+Colgate University
+Columbia University
+Cornell University
+Fordham University
+Hofstra University
+Iona College
+Long Island University–Brooklyn
+Manhattan College
+Marist College
+Niagara University
+St. Bonaventure University
+St. Francis College
+St. John's University
+Siena College
+Stony Brook University
+Syracuse University
+United States Military Academy
+Wagner College
+
+North Carolina	Appalachian State University
+Campbell University
+Davidson College
+Duke University
+East Carolina University
+Elon University
+Gardner–Webb University
+High Point University
+North Carolina Agricultural and Technical State University
+University of North Carolina at Asheville
+North Carolina Central University
+University of North Carolina at Chapel Hill
+University of North Carolina at Charlotte
+University of North Carolina at Greensboro
+North Carolina State University
+University of North Carolina at Wilmington
+Wake Forest University
+Western Carolina University
+
+North Dakota	University of North Dakota
+North Dakota State University
+
+Ohio	University of Akron
+Bowling Green State University
+University of Cincinnati
+Cleveland State University
+University of Dayton
+Kent State University
+Miami University
+Ohio University
+Ohio State University
+University of Toledo
+Wright State University
+Xavier University
+Youngstown State University
+
+Oklahoma	University of Oklahoma
+Oklahoma State University Stillwater
+Oral Roberts University
+University of Tulsa
+
+Oregon	University of Oregon
+Oregon State University
+University of Portland
+Portland State University
+
+Pennsylvania	Bucknell University
+Drexel University
+Duquesne University
+La Salle University
+Lafayette College
+Lehigh University
+University of Pennsylvania
+Pennsylvania State University
+University of Pittsburgh
+Robert Morris University
+Saint Francis University
+Saint Joseph's University
+Temple University
+Villanova University
+
+Rhode Island	Brown University
+Bryant University
+Providence College
+University of Rhode Island
+
+South Carolina	College of Charleston
+Charleston Southern University
+The Citadel
+Clemson University
+Coastal Carolina University
+Furman University
+Presbyterian College
+University of South Carolina
+South Carolina State University
+University of South Carolina Upstate
+Winthrop University
+Wofford College
+
+South Dakota	University of South Dakota
+South Dakota State University
+
+Tennessee	Austin Peay State University
+Belmont University
+East Tennessee State University
+Lipscomb University
+University of Memphis
+Middle Tennessee State University
+University of Tennessee
+University of Tennessee at Chattanooga
+University of Tennessee at Martin
+Tennessee State University
+Tennessee Technological University
+Vanderbilt University
+
+Texas	Baylor University
+University of Houston
+Houston Baptist University
+Lamar University
+University of North Texas
+Prairie View A&M University
+Rice University
+Sam Houston State University
+Southern Methodist University
+Stephen F. Austin State University
+Texas A&M University
+Texas A&M University–Corpus Christi
+University of Texas at Arlington
+University of Texas at Austin
+Texas Christian University
+University of Texas at El Paso
+University of Texas Rio Grande Valley
+University of Texas at San Antonio
+Texas Southern University
+Texas State University
+Texas Tech University
+Utah	Brigham Young University
+Southern Utah University
+University of Utah
+Utah State University
+Utah Valley University
+Weber State University
+
+Vermont	University of Vermont
+
+Virginia	George Mason University
+Hampton University
+James Madison University
+Liberty University
+Longwood University
+Norfolk State University
+Old Dominion University
+Radford University
+University of Richmond
+University of Virginia
+Virginia Commonwealth University
+Virginia Military Institute
+Virginia Tech
+College of William & Mary
+
+Washington
+Eastern Washington University
+Gonzaga University
+Seattle University
+University of Washington
+Washington State University
+
+West Virginia
+Marshall University
+West Virginia University
+
+Wisconsin	Marquette University
+University of Wisconsin Green Bay
+University of Wisconsin Madison
+University of Wisconsin Milwaukee
+
+Wyoming
+University of Wyoming 
