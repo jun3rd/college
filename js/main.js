@@ -12,15 +12,18 @@ function loadJSON(callback) {
   xobj.send(null)
 }
 function init() {
-  loadJSON(function(response) {
+  loadJSON( function(response) {
     let answer = ""
     let actualJSON = JSON.parse(response)
     let dataShown = document.getElementById('college-stats')
-    for( let x=0; x<actualJSON.colleges.length; x++) {
-      answer += '<li id="" class="dark-sky">' + actualJSON.colleges[x].name + '</li>'
-      answer += '<li id="" class="med-sky">' + actualJSON.colleges[x].name + '</li>'
-    }
+    for(let x=0; x<actualJSON.colleges.length; x++) {
+      if (x % 2 == 0) {
+	answer += '<li id="" class="dark-sky">' + actualJSON.colleges[x].name + '</li>'
+      } else {
+	answer += '<li id="" class="light-sky">' + actualJSON.colleges[x].name + '</li>'
+      }
     dataShown.innerHTML = answer
+    }
   })
 }
 
