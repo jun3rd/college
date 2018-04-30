@@ -20,7 +20,7 @@ function init() {
       if (x % 2 == 0) {
 	answer += '<li id="" class="dark-sky">' + actualJSON.colleges[x].name + '</li>'
       } else {
-	answer += '<li id="" class="light-sky">' + actualJSON.colleges[x].name + '</li>'
+	answer += '<li id="" class="test-color">' + actualJSON.colleges[x].name + '</li>'
       }
     dataShown.innerHTML = answer
     }

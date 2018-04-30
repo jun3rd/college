@@ -1,3 +1,9 @@
+/*
+ * middle-grey: #cfe0e8
+ * dark-grey: #001d2d
+ * middle-blue: #b7d7e8
+ * dark-middle-blue: #00517a
+*/
 body {
     margin: 0px;
     background-color: #daebe8;
@@ -26,4 +32,7 @@ p {
 .light-sky {
     color: #87bdd8;
 }
-
+.test-color {
+    background-color: #b7d7e8;
+    color: #001d2d;
+}
